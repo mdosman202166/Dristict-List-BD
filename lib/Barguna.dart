@@ -16,18 +16,25 @@ class _BargunaState extends State<Barguna> {
             child: Text("Rajbari")
         ),
       ),
-      body: Column (
-        children: [
-          Image.network("",
-            height: 200,
-            width: 500,
-          ),
+      body: SingleChildScrollView(
+        child: Column (
+          children: [
+            Image.network("",
+              height: 200,
+              width: 500,
+            ),
 
-          Text(""
-              ""
-              ""
-              "")
-        ],
+            Padding(
+              padding: const EdgeInsets.only(left: 20,
+              right: 20,
+              top: 20,),
+              child: Text(""
+                  ""
+                  ""
+                  ""),
+            )
+          ],
+        ),
       ),
     );
   }

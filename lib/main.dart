@@ -372,7 +372,7 @@ class _MyHomePageState extends State<MyHomePage> {
     ),
     ),
     title: Text("Rajbari"),
-    subtitle: Text("Madaripur is long city"),
+    subtitle: Text("Rajbari (Bengali: রাজবাড়ি) is a district in central Bangladesh"),
     onTap: (){
     Navigator.push(
     context,
@@ -390,7 +390,7 @@ class _MyHomePageState extends State<MyHomePage> {
     ),
     ),
     title: Text("Shariatpur"),
-    subtitle: Text("Madaripur is long city"),
+    subtitle: Text("Shariatpur (Bengali: শরিয়তপুর জেলা, Shariatpur Jela also Shariatpur Zila) "),
     onTap: (){
     Navigator.push(
     context,
@@ -408,7 +408,7 @@ class _MyHomePageState extends State<MyHomePage> {
     ),
     ),
     title: Text("Sherpur"),
-    subtitle: Text("Madaripur is long city"),
+    subtitle: Text("Sherpur (Bengali: শেরপুর জেলা, Sherpur Jela also Sherpur Zila) is a district in Northern Bangladesh."),
     onTap: (){
     Navigator.push(
     context,
@@ -425,7 +425,7 @@ class _MyHomePageState extends State<MyHomePage> {
     ),
     ),
     title: Text("Tangail"),
-    subtitle: Text("Madaripur is long city"),
+    subtitle: Text("Tangail (Bengali: টাঙ্গাইল জেলা) formerly an Upzilla of Greater Mymensingh district is a district (zila) in the central region of Bangladesh."),
     onTap: (){
     Navigator.push(
     context,
@@ -442,7 +442,7 @@ class _MyHomePageState extends State<MyHomePage> {
     ),
     ),
     title: Text("Bogra "),
-    subtitle: Text("Madaripur is long city"),
+    subtitle: Text("Bogra, officially known as Bogura, is a major city located in the Bogra District, Rajshahi Division, Bangladesh. "),
     onTap: (){
     Navigator.push(
     context,
@@ -459,7 +459,7 @@ class _MyHomePageState extends State<MyHomePage> {
     ),
     ),
     title: Text("Joypurhat "),
-    subtitle: Text("Madaripur is long city"),
+    subtitle: Text("Joypurhat (Bengali: জয়পুরহাট জেলা, Bengali pronunciation: [ˈbangla] Joypurhat Jela, also Joypurhat Zila)"),
     onTap: (){
     Navigator.push(
     context,
@@ -476,7 +476,7 @@ class _MyHomePageState extends State<MyHomePage> {
     ),
     ),
     title: Text("Naogaon "),
-    subtitle: Text("Madaripur is long city"),
+    subtitle: Text("Naogaon is a city and district headquarter of Naogaon District in northern Bangladesh."),
     onTap: (){
     Navigator.push(
     context,
@@ -493,7 +493,7 @@ class _MyHomePageState extends State<MyHomePage> {
     ),
     ),
     title: Text("Natore"),
-    subtitle: Text("Madaripur is long city"),
+    subtitle: Text("Natore is a district of Rajshahi Division[2] located in northern Bangladesh"),
     onTap: (){
     Navigator.push(
     context,
@@ -833,7 +833,7 @@ class _MyHomePageState extends State<MyHomePage> {
     ),
     ),
     title: Text("Brahmanbaria"),
-    subtitle: Text("Madaripur is long city"),
+    subtitle: Text("Bagerhat District (Bengali: বাগেরহাট, pron: bageɾɦaʈ) is a district in south-western Bangladesh. It is a part of the Khulna Division."),
     onTap: (){
     Navigator.push(
     context,
