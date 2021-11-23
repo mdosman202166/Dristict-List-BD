@@ -1,25 +1,24 @@
 import 'package:flutter/material.dart';
 
-class Rajbari extends StatefulWidget {
-  const Rajbari({Key? key}) : super(key: key);
+class Bagerhat extends StatefulWidget {
+  const Bagerhat({Key? key}) : super(key: key);
 
   @override
-  _RajbariState createState() => _RajbariState();
+  _BagerhatState createState() => _BagerhatState();
 }
 
-class _RajbariState extends State<Rajbari> {
+class _BagerhatState extends State<Bagerhat> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-
       appBar: AppBar(
         title: Center(
-            child: Text("Rajbari")
+            child: Text("Bagerhat")
         ),
       ),
       body: Column (
         children: [
-          Image.network("",
+          Image.network("https://ak.jogurucdn.com/media/image/media_gallery-2018-11-12-8-1280px_Sixty_Dome_Mosque_Bagerhat_1cd4256059fef000a0c35c93e004baa8.jpg",
             height: 200,
             width: 500,
           ),
@@ -30,7 +29,6 @@ class _RajbariState extends State<Rajbari> {
               "")
         ],
       ),
-
     );
   }
 }

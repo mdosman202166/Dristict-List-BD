@@ -1,17 +1,16 @@
 import 'package:flutter/material.dart';
 
-class Rajbari extends StatefulWidget {
-  const Rajbari({Key? key}) : super(key: key);
+class Lakshmipur extends StatefulWidget {
+  const Lakshmipur({Key? key}) : super(key: key);
 
   @override
-  _RajbariState createState() => _RajbariState();
+  _LakshmipurState createState() => _LakshmipurState();
 }
 
-class _RajbariState extends State<Rajbari> {
+class _LakshmipurState extends State<Lakshmipur> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-
+    return  Scaffold(
       appBar: AppBar(
         title: Center(
             child: Text("Rajbari")
@@ -30,7 +29,6 @@ class _RajbariState extends State<Rajbari> {
               "")
         ],
       ),
-
     );
   }
 }

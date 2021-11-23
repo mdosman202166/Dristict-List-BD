@@ -1,22 +1,20 @@
 import 'package:flutter/material.dart';
 
-class Rajbari extends StatefulWidget {
-  const Rajbari({Key? key}) : super(key: key);
+class Kurigram extends StatefulWidget {
+  const Kurigram({Key? key}) : super(key: key);
 
   @override
-  _RajbariState createState() => _RajbariState();
+  _KurigramState createState() => _KurigramState();
 }
 
-class _RajbariState extends State<Rajbari> {
+class _KurigramState extends State<Kurigram> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-
-      appBar: AppBar(
-        title: Center(
-            child: Text("Rajbari")
-        ),
+    return Scaffold( appBar: AppBar(
+      title: Center(
+          child: Text("Rajbari")
       ),
+    ),
       body: Column (
         children: [
           Image.network("",
@@ -29,8 +27,6 @@ class _RajbariState extends State<Rajbari> {
               ""
               "")
         ],
-      ),
-
-    );
+      ),);
   }
 }

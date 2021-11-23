@@ -1,19 +1,64 @@
+import 'package:dristrict/Bagerhat.dart';
+import 'package:dristrict/Bandarban.dart';
+import 'package:dristrict/Barguna.dart';
+import 'package:dristrict/Barisal.dart';
+import 'package:dristrict/Bhola.dart';
 import 'package:dristrict/Bogra.dart';
+import 'package:dristrict/Brahmanbaria.dart';
+import 'package:dristrict/Chandpur.dart';
+import 'package:dristrict/Chittagong.dart';
+import 'package:dristrict/Chuadanga.dart';
+import 'package:dristrict/Comilla.dart';
+import 'package:dristrict/Dinajpur.dart';
+import 'package:dristrict/Gaibandha.dart';
+import 'package:dristrict/Habiganj.dart';
 import 'package:dristrict/Jamalpur.dart';
+import 'package:dristrict/Jessore.dart';
+import 'package:dristrict/Jhalokati.dart';
+import 'package:dristrict/Jhenaidah.dart';
 import 'package:dristrict/Joypurhat.dart';
+import 'package:dristrict/Khagrachari.dart';
+import 'package:dristrict/Khulna.dart';
 import 'package:dristrict/Kishoreganj.dart';
+import 'package:dristrict/Kurigram.dart';
+import 'package:dristrict/Kushtia.dart';
+import 'package:dristrict/Lakshmipur.dart';
+import 'package:dristrict/Lalmonirhat.dart';
+import 'package:dristrict/Magura.dart';
 import 'package:dristrict/Manikganj.dart';
+import 'package:dristrict/Maulvibazar.dart';
+import 'package:dristrict/Meherpur.dart';
 import 'package:dristrict/Munshiganj.dart';
 import 'package:dristrict/Mymensingh.dart';
+import 'package:dristrict/Naogaon.dart';
+import 'package:dristrict/Narail.dart';
 import 'package:dristrict/Narayanganj.dart';
 import 'package:dristrict/Narsingdi.dart';
+import 'package:dristrict/Natore.dart';
+import 'package:dristrict/Nawabganj.dart';
 import 'package:dristrict/Netrokona.dart';
+import 'package:dristrict/Nilphamari.dart';
+import 'package:dristrict/Noakhali.dart';
+import 'package:dristrict/Pabna.dart';
+import 'package:dristrict/Panchagarh.dart';
+import 'package:dristrict/Patuakhali.dart';
+import 'package:dristrict/Pirojpur.dart';
 import 'package:dristrict/Rajbari.dart';
+import 'package:dristrict/Rajshahi.dart';
+import 'package:dristrict/Rangamati.dart';
+import 'package:dristrict/Rangpur.dart';
+import 'package:dristrict/Satkhira.dart';
 import 'package:dristrict/Shariatpur.dart';
 import 'package:dristrict/Sherpur.dart';
+import 'package:dristrict/Sirajgonj.dart';
+import 'package:dristrict/Sunamganj.dart';
+import 'package:dristrict/Sylhet.dart';
 import 'package:dristrict/Tangail.dart';
+import 'package:dristrict/Thakurgaon.dart';
+import 'package:dristrict/cos.dart';
 import 'package:dristrict/dhaka.dart';
 import 'package:dristrict/faridpur.dart';
+import 'package:dristrict/feni.dart';
 import 'package:dristrict/gazipur.dart';
 import 'package:dristrict/gopalganj.dart';
 import 'package:dristrict/madaripur.dart';
@@ -436,7 +481,7 @@ class _MyHomePageState extends State<MyHomePage> {
     Navigator.push(
     context,
     MaterialPageRoute(
-    builder: (context)=>madaripur()
+    builder: (context)=>Naogaon()
     )
     );
     },
@@ -453,7 +498,7 @@ class _MyHomePageState extends State<MyHomePage> {
     Navigator.push(
     context,
     MaterialPageRoute(
-    builder: (context)=>madaripur()
+    builder: (context)=>Natore()
     )
     );
     },
@@ -470,7 +515,7 @@ class _MyHomePageState extends State<MyHomePage> {
     Navigator.push(
     context,
     MaterialPageRoute(
-    builder: (context)=>madaripur()
+    builder: (context)=>Nawabganj()
     )
     );
     },
@@ -487,7 +532,7 @@ class _MyHomePageState extends State<MyHomePage> {
     Navigator.push(
     context,
     MaterialPageRoute(
-    builder: (context)=>madaripur()
+    builder: (context)=>Pabna()
     )
     );
     },
@@ -504,7 +549,7 @@ class _MyHomePageState extends State<MyHomePage> {
     Navigator.push(
     context,
     MaterialPageRoute(
-    builder: (context)=>madaripur()
+    builder: (context)=>Rajshahi()
     )
     );
     },
@@ -521,7 +566,7 @@ class _MyHomePageState extends State<MyHomePage> {
     Navigator.push(
     context,
     MaterialPageRoute(
-    builder: (context)=>madaripur()
+    builder: (context)=>Sirajgonj()
     )
     );
     },
@@ -538,7 +583,7 @@ class _MyHomePageState extends State<MyHomePage> {
     Navigator.push(
     context,
     MaterialPageRoute(
-    builder: (context)=>madaripur()
+    builder: (context)=>Dinajpur()
     )
     );
     },
@@ -555,7 +600,7 @@ class _MyHomePageState extends State<MyHomePage> {
     Navigator.push(
     context,
     MaterialPageRoute(
-    builder: (context)=>madaripur()
+    builder: (context)=>Gaibandha()
     )
     );
     },
@@ -572,7 +617,7 @@ class _MyHomePageState extends State<MyHomePage> {
     Navigator.push(
     context,
     MaterialPageRoute(
-    builder: (context)=>madaripur()
+    builder: (context)=>Kurigram()
     )
     );
     },
@@ -589,7 +634,7 @@ class _MyHomePageState extends State<MyHomePage> {
     Navigator.push(
     context,
     MaterialPageRoute(
-    builder: (context)=>madaripur()
+    builder: (context)=>Lalmonirhat()
     )
     );
     },
@@ -606,7 +651,7 @@ class _MyHomePageState extends State<MyHomePage> {
     Navigator.push(
     context,
     MaterialPageRoute(
-    builder: (context)=>madaripur()
+    builder: (context)=>Nilphamari()
     )
     );
     },
@@ -623,7 +668,7 @@ class _MyHomePageState extends State<MyHomePage> {
     Navigator.push(
     context,
     MaterialPageRoute(
-    builder: (context)=>madaripur()
+    builder: (context)=>Panchagarh()
     )
     );
     },
@@ -640,7 +685,7 @@ class _MyHomePageState extends State<MyHomePage> {
     Navigator.push(
     context,
     MaterialPageRoute(
-    builder: (context)=>madaripur()
+    builder: (context)=>Rangpur()
     )
     );
     },
@@ -657,7 +702,7 @@ class _MyHomePageState extends State<MyHomePage> {
     Navigator.push(
     context,
     MaterialPageRoute(
-    builder: (context)=>madaripur()
+    builder: (context)=>Thakurgaon()
     )
     );
     },
@@ -674,7 +719,7 @@ class _MyHomePageState extends State<MyHomePage> {
     Navigator.push(
     context,
     MaterialPageRoute(
-    builder: (context)=>madaripur()
+    builder: (context)=>Barguna()
     )
     );
     },
@@ -691,7 +736,7 @@ class _MyHomePageState extends State<MyHomePage> {
     Navigator.push(
     context,
     MaterialPageRoute(
-    builder: (context)=>madaripur()
+    builder: (context)=>Barisal()
     )
     );
     },
@@ -708,7 +753,7 @@ class _MyHomePageState extends State<MyHomePage> {
     Navigator.push(
     context,
     MaterialPageRoute(
-    builder: (context)=>madaripur()
+    builder: (context)=>Bhola()
     )
     );
     },
@@ -725,7 +770,7 @@ class _MyHomePageState extends State<MyHomePage> {
     Navigator.push(
     context,
     MaterialPageRoute(
-    builder: (context)=>madaripur()
+    builder: (context)=>Jhalokati()
     )
     );
     },
@@ -742,7 +787,7 @@ class _MyHomePageState extends State<MyHomePage> {
     Navigator.push(
     context,
     MaterialPageRoute(
-    builder: (context)=>madaripur()
+    builder: (context)=>Patuakhali()
     )
     );
     },
@@ -759,7 +804,7 @@ class _MyHomePageState extends State<MyHomePage> {
     Navigator.push(
     context,
     MaterialPageRoute(
-    builder: (context)=>madaripur()
+    builder: (context)=>Pirojpur()
     )
     );
     },
@@ -776,7 +821,7 @@ class _MyHomePageState extends State<MyHomePage> {
     Navigator.push(
     context,
     MaterialPageRoute(
-    builder: (context)=>madaripur()
+    builder: (context)=>Bandarban()
     )
     );
     },
@@ -793,7 +838,7 @@ class _MyHomePageState extends State<MyHomePage> {
     Navigator.push(
     context,
     MaterialPageRoute(
-    builder: (context)=>madaripur()
+    builder: (context)=> Brahmanbaria()
     )
     );
     },
@@ -810,7 +855,7 @@ class _MyHomePageState extends State<MyHomePage> {
     Navigator.push(
     context,
     MaterialPageRoute(
-    builder: (context)=>madaripur()
+    builder: (context)=> Chandpur()
     )
     );
     },
@@ -827,7 +872,7 @@ class _MyHomePageState extends State<MyHomePage> {
     Navigator.push(
     context,
     MaterialPageRoute(
-    builder: (context)=>madaripur()
+    builder: (context)=> Chittagong()
     )
     );
     },
@@ -844,7 +889,7 @@ class _MyHomePageState extends State<MyHomePage> {
     Navigator.push(
     context,
     MaterialPageRoute(
-    builder: (context)=>madaripur()
+    builder: (context)=>Comilla()
     )
     );
     },
@@ -861,7 +906,7 @@ class _MyHomePageState extends State<MyHomePage> {
     Navigator.push(
     context,
     MaterialPageRoute(
-    builder: (context)=>madaripur()
+    builder: (context)=>cox()
     )
     );
     },
@@ -878,7 +923,7 @@ class _MyHomePageState extends State<MyHomePage> {
     Navigator.push(
     context,
     MaterialPageRoute(
-    builder: (context)=>madaripur()
+    builder: (context)=>Feni()
     )
     );
     },
@@ -895,7 +940,7 @@ class _MyHomePageState extends State<MyHomePage> {
     Navigator.push(
     context,
     MaterialPageRoute(
-    builder: (context)=>madaripur()
+    builder: (context)=>Khagrachari()
     )
     );
     },
@@ -912,7 +957,7 @@ class _MyHomePageState extends State<MyHomePage> {
     Navigator.push(
     context,
     MaterialPageRoute(
-    builder: (context)=>madaripur()
+    builder: (context)=>Lakshmipur ()
     )
     );
     },
@@ -929,7 +974,7 @@ class _MyHomePageState extends State<MyHomePage> {
     Navigator.push(
     context,
     MaterialPageRoute(
-    builder: (context)=>madaripur()
+    builder: (context)=>Noakhali()
     )
     );
     },
@@ -946,7 +991,7 @@ class _MyHomePageState extends State<MyHomePage> {
     Navigator.push(
     context,
     MaterialPageRoute(
-    builder: (context)=>madaripur()
+    builder: (context)=> Rangamati()
     )
     );
     },
@@ -957,13 +1002,13 @@ class _MyHomePageState extends State<MyHomePage> {
     child: Text("H"
     ),
     ),
-    title: Text("Habiganj r"),
+    title: Text("Habiganj"),
     subtitle: Text("Madaripur is long city"),
     onTap: (){
     Navigator.push(
     context,
     MaterialPageRoute(
-    builder: (context)=>madaripur()
+    builder: (context)=>Habiganj()
     )
     );
     },
@@ -980,7 +1025,7 @@ class _MyHomePageState extends State<MyHomePage> {
     Navigator.push(
     context,
     MaterialPageRoute(
-    builder: (context)=>madaripur()
+    builder: (context)=> Maulvibazar()
     )
     );
     },
@@ -997,7 +1042,7 @@ class _MyHomePageState extends State<MyHomePage> {
     Navigator.push(
     context,
     MaterialPageRoute(
-    builder: (context)=>madaripur()
+    builder: (context)=> Sunamganj()
     )
     );
     },
@@ -1014,7 +1059,7 @@ class _MyHomePageState extends State<MyHomePage> {
     Navigator.push(
     context,
     MaterialPageRoute(
-    builder: (context)=>madaripur()
+    builder: (context)=> Sylhet()
     )
     );
     },
@@ -1031,7 +1076,7 @@ class _MyHomePageState extends State<MyHomePage> {
     Navigator.push(
     context,
     MaterialPageRoute(
-    builder: (context)=>madaripur()
+    builder: (context)=> Bagerhat()
     )
     );
     },
@@ -1048,7 +1093,7 @@ class _MyHomePageState extends State<MyHomePage> {
     Navigator.push(
     context,
     MaterialPageRoute(
-    builder: (context)=>madaripur()
+    builder: (context)=> Chuadanga()
     )
     );
     },
@@ -1065,7 +1110,7 @@ class _MyHomePageState extends State<MyHomePage> {
     Navigator.push(
     context,
     MaterialPageRoute(
-    builder: (context)=>madaripur()
+    builder: (context)=> Jessore()
     )
     );
     },
@@ -1082,7 +1127,7 @@ class _MyHomePageState extends State<MyHomePage> {
     Navigator.push(
     context,
     MaterialPageRoute(
-    builder: (context)=>madaripur()
+    builder: (context)=> Jhenaidah()
     )
     );
     },
@@ -1099,7 +1144,7 @@ class _MyHomePageState extends State<MyHomePage> {
     Navigator.push(
     context,
     MaterialPageRoute(
-    builder: (context)=>madaripur()
+    builder: (context)=>Khulna()
     )
     );
     },
@@ -1116,7 +1161,7 @@ class _MyHomePageState extends State<MyHomePage> {
     Navigator.push(
     context,
     MaterialPageRoute(
-    builder: (context)=>madaripur()
+    builder: (context)=> Kushtia()
     )
     );
     },
@@ -1133,7 +1178,7 @@ class _MyHomePageState extends State<MyHomePage> {
     Navigator.push(
     context,
     MaterialPageRoute(
-    builder: (context)=>madaripur()
+    builder: (context)=> Magura()
     )
     );
     },
@@ -1150,7 +1195,7 @@ class _MyHomePageState extends State<MyHomePage> {
     Navigator.push(
     context,
     MaterialPageRoute(
-    builder: (context)=>madaripur()
+    builder: (context)=> Meherpur()
     )
     );
     },
@@ -1167,7 +1212,7 @@ class _MyHomePageState extends State<MyHomePage> {
     Navigator.push(
     context,
     MaterialPageRoute(
-    builder: (context)=>madaripur()
+    builder: (context)=> Narail()
     )
     );
     },
@@ -1184,7 +1229,7 @@ class _MyHomePageState extends State<MyHomePage> {
     Navigator.push(
     context,
     MaterialPageRoute(
-    builder: (context)=>madaripur()
+    builder: (context)=> Satkhira()
     )
     );
     },
